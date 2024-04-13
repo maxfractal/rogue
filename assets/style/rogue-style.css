@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box-color {}
+
+.box {
+    height: 38px;
+    width: 38px;
+    background-color: #016;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box-bg {
+    height: 40px;
+    width: 40px;
+    background-color: #012;
+    border: .5 solid black;
+    display: inline-block;
+}
+
+.box-bg2 {
+    height: 40px;
+    width: 40px;
+    background-color: #019;
+    border: .5 solid black;
+    display: inline-block;
+}

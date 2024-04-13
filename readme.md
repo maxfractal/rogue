@@ -1,4 +1,4 @@
-Maxfractal Roguelike HTML5 Game
+Maxfractal.com Roguelike HTML5 Game
 
 
 Roadmap:

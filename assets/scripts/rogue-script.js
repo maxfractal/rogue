@@ -3,7 +3,20 @@ const scene = {
         this.load.bitmapFont("arcade", "/assets/font/arcade.png", "/assets/font/arcade.xml");
     },
     create: function () {
-        this.add.bitmapText(400,300, "arcade", "Hello Maxfractal").setOrigin(0.5);
+        this.helloText = this.add.bitmapText(400,300, "arcade", "Hello Maxfractal").setOrigin(0.5);
+        this.helloXris = this.add.bitmapText(400,300, "arcade", " xris fractal").setOrigin(0.5);
+    },
+    update: function() {
+        this.helloText.x += 10;
+        this.helloXris.y += 10;
+
+        if(this.helloText.x > 1000) {
+            this.helloText.x = -200
+        }
+
+        if(this.helloXris.y > 630) {
+            this.helloXris.y = -100
+        }
     }
 }
 
